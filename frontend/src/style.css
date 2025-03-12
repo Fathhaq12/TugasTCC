@@ -1,0 +1,134 @@
+/* Tema Terang */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4; /* Warna latar belakang terang */
+  color: #333; /* Warna teks gelap */
+}
+
+.App {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Card Styling */
+.card {
+  background-color: #ffffff; /* Warna card putih */
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow lebih ringan */
+  width: 80%;
+  max-width: 600px;
+}
+
+/* Judul di Tengah */
+h1 {
+  text-align: center;
+  color: #333; /* Warna teks gelap */
+}
+
+/* Button Styling */
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Button Add New */
+button.add {
+  background-color: #4caf50; /* Warna hijau */
+  color: #ffffff;
+  margin-top: 20px; /* Jarak dari list catatan */
+}
+
+/* Button Edit */
+button.edit {
+  background-color: #2196f3; /* Warna biru */
+  color: #ffffff;
+  margin-left: 10px; /* Jarak antara button Edit dan Delete */
+}
+
+/* Button Delete */
+button.delete {
+  background-color: #f44336; /* Warna merah */
+  color: #ffffff;
+}
+
+/* Link Styling */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Form Styling */
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333; /* Warna teks gelap */
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc; /* Border lebih ringan */
+  border-radius: 4px;
+  background-color: #ffffff; /* Warna input putih */
+  color: #333; /* Warna teks gelap */
+}
+
+/* List Styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+
+li {
+  background-color: #ffffff; /* Warna card putih */
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc; /* Border lebih ringan */
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li h2 {
+  margin: 0;
+  color: #333; /* Warna teks gelap */
+}
+
+li p {
+  margin: 5px 0;
+  color: #666; /* Warna teks lebih gelap */
+}
+
+/* Container untuk button Edit dan Delete */
+li .actions {
+  display: flex;
+  gap: 10px; /* Jarak antara button Edit dan Delete */
+}
+
+/* Container untuk button Update Note */
+.update-button-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
