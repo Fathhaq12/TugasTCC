@@ -1,13 +1,11 @@
 import { Sequelize } from "sequelize";
 
-// Koneksi ke database
 const db = new Sequelize('notes_db', 'root', '', {
     host: 'localhost',
     dialect: 'mysql',
     logging: false
 });
 
-// Fungsi untuk memeriksa koneksi
 (async () => {
     try {
         await db.authenticate();  
