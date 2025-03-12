@@ -1,10 +1,9 @@
-/* Tema Terang */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4; /* Warna latar belakang terang */
-  color: #333; /* Warna teks gelap */
+  background-color: #f4f4f4;
+  color: #333; 
 }
 
 .App {
@@ -14,24 +13,21 @@ body {
   align-items: center;
 }
 
-/* Card Styling */
 .card {
-  background-color: #ffffff; /* Warna card putih */
+  background-color: #ffffff;
   padding: 20px;
   margin: 10px;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow lebih ringan */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 80%;
   max-width: 600px;
 }
 
-/* Judul di Tengah */
 h1 {
   text-align: center;
-  color: #333; /* Warna teks gelap */
+  color: #333;
 }
 
-/* Button Styling */
 button {
   padding: 10px 20px;
   border: none;
@@ -44,33 +40,28 @@ button:hover {
   opacity: 0.9;
 }
 
-/* Button Add New */
 button.add {
-  background-color: #4caf50; /* Warna hijau */
+  background-color: #4caf50;
   color: #ffffff;
-  margin-top: 20px; /* Jarak dari list catatan */
+  margin-top: 20px; 
 }
 
-/* Button Edit */
 button.edit {
-  background-color: #2196f3; /* Warna biru */
+  background-color: #2196f3; 
   color: #ffffff;
-  margin-left: 10px; /* Jarak antara button Edit dan Delete */
+  margin-left: 10px; 
 }
 
-/* Button Delete */
 button.delete {
-  background-color: #f44336; /* Warna merah */
+  background-color: #f44336;
   color: #ffffff;
 }
 
-/* Link Styling */
 a {
   text-decoration: none;
   color: inherit;
 }
 
-/* Form Styling */
 form {
   margin-top: 20px;
 }
@@ -78,20 +69,19 @@ form {
 label {
   display: block;
   margin-bottom: 5px;
-  color: #333; /* Warna teks gelap */
+  color: #333;
 }
 
 input, textarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
-  border: 1px solid #ccc; /* Border lebih ringan */
+  border: 1px solid #ccc;
   border-radius: 4px;
-  background-color: #ffffff; /* Warna input putih */
-  color: #333; /* Warna teks gelap */
+  background-color: #ffffff;
+  color: #333; 
 }
 
-/* List Styling */
 ul {
   list-style-type: none;
   padding: 0;
@@ -99,10 +89,10 @@ ul {
 }
 
 li {
-  background-color: #ffffff; /* Warna card putih */
+  background-color: #ffffff;
   padding: 15px;
   margin-bottom: 10px;
-  border: 1px solid #ccc; /* Border lebih ringan */
+  border: 1px solid #ccc; 
   border-radius: 4px;
   display: flex;
   justify-content: space-between;
@@ -111,21 +101,19 @@ li {
 
 li h2 {
   margin: 0;
-  color: #333; /* Warna teks gelap */
+  color: #333; 
 }
 
 li p {
   margin: 5px 0;
-  color: #666; /* Warna teks lebih gelap */
+  color: #666; 
 }
 
-/* Container untuk button Edit dan Delete */
 li .actions {
   display: flex;
-  gap: 10px; /* Jarak antara button Edit dan Delete */
+  gap: 10px; 
 }
 
-/* Container untuk button Update Note */
 .update-button-container {
   display: flex;
   justify-content: center;
