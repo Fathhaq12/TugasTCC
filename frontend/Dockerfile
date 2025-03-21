@@ -1,4 +1,3 @@
-KLO PAKE REACT INI
 FROM node:18-alpine
 WORKDIR /frontend/
 COPY public/ /frontend/public
