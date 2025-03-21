@@ -10,7 +10,7 @@ const AddNote = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:5000/notes', { judul, deskripsi });
+      await axios.post(`${BASE_URL}/notes`, { judul, deskripsi });
       navigate('/');
     } catch (error) {
       console.error('Error adding note:', error);
