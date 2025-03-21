@@ -9,9 +9,9 @@ import {
 
 const router = express.Router();
 
-router.get('/', getNotes);  
-router.get('/:id', getNoteById); 
-router.post('/', createNote);  
-router.patch('/:id', updateNote);  
-router.delete('/:id', deleteNote);  
+router.get('/notes', getNotes);  
+router.get('/notes/:id', getNoteById); 
+router.post('/notes', createNote);  
+router.patch('/notes/:id', updateNote);  
+router.delete('/notes/:id', deleteNote);  
 export default router;
