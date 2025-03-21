@@ -14,7 +14,7 @@ const EditNote = () => {
 
   const fetchNote = async () => {
     try {
-      const response = await axios.get(`http://localhost:5000/notes/${id}`);
+      const response = await axios.get(`${BASE_URL}/notes/${id}`);
       setJudul(response.data.judul);
       setDeskripsi(response.data.deskripsi);
     } catch (error) {
@@ -25,7 +25,7 @@ const EditNote = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.patch(`http://localhost:5000/notes/${id}`, { judul, deskripsi });
+      await axios.patch(`${BASE_URL}/notes/${id}`, { judul, deskripsi });
       navigate('/');
     } catch (error) {
       console.error('Error updating note:', error);
